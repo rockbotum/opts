@@ -1,0 +1,79 @@
+.btn_catalog{
+    background: lightgray;
+}
+.btn_catalog:focus{
+    background: white;
+    border-color: orange;
+    color: orange;
+}
+.btn_catalog_list{
+    background: orange;
+    color: white;
+    border-color: orange;
+}
+.btn_catalog_list:focus{
+    background: white;
+    border-color: blue;
+    color: blue;
+}
+.btn_catalog_list:hover{
+
+}
+.btn_pages_navigation{
+    width: auto;
+    height: auto;
+}
+.left_str{
+    float: left;
+    width: 55%;
+}
+.right_str{
+    text-align: right;
+}
+select{
+    width: 100px;
+    margin: auto;
+    background: none;
+    border: none;
+    text-decoration: underline;
+}
+div img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.right_str p{
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
+.right_str select{
+    border-right: 1px solid gray;
+    padding-right: 20px;
+}
+.catalog_tovarov_btn{
+    background: darkblue;
+    border-radius: 5px;
+    width: 200px;
+}
+.btn_navigation_on_catalog{
+    color: gray;
+    text-decoration: none;
+}
+.btn_navigation_on_catalog:focus{
+    color: blue;
+}
+.production_block{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+td{
+    text-align: center;
+}
+td button{
+    background: lightgray;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
